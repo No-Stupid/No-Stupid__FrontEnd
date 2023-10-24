@@ -1,5 +1,9 @@
+
+
+
+
 const CLIENT_ID = process.env.REACT_APP_REST_API_KEY;
-const REDIRECT_URI = "http://localhost:3000/auth/kakao/callback";
+const REDIRECT_URI = "http://localhost:3000/login";
 
 
 

@@ -10,10 +10,10 @@ const SignInLayout = styled(Layout)`
 
 input{
   width: 100%;
-  height: 40px;
+  height: 100%;
   font-size: 15px;
   padding: 5px;
-  border-radius: 8px;
+  border-radius: 40px;
  
 }
 input::placeholder{
@@ -24,28 +24,31 @@ input::placeholder{
 
 `;
 const LogoBox = styled.div`
-position: relative;
-top: 40px;
-left: 30px;
+  width: 50px;
+  height:40px;
+  
 `;
 
 
 
 const LoginArea = styled.div`
 position: relative;
-top: 360px;
+top: 120px;
 border: 1px solid blue;
+padding : 15px 20px;
 
 `;
 const LoginWrapper = styled.div` 
-
+width: 100%;
+height: 50px;
+margin: 30px 0;
 border: 1px solid green;
 
 `;
 const EmailInput= styled.input `
 display: block;
 width: 100%;
-height : 16px;
+height: 100%;
 
 &::placeholder {
   color: ##949494;
@@ -56,22 +59,29 @@ height : 16px;
 }
 `;
 
+//에러
 const ErrorAlter = styled.span`
 display:inline-block;
 font-size: 12px;
+font-weight: bold;
 color :  #ff003e;
 letter-spacing: -.5px;
 vertical-align: middle;
 `;
+
+
+
 const PasswordWrapper= styled.div`
-display : block;
-width : 100%;
+width: 100%;
+height: 50px;
+margin: 30px 0;
+border: 1px solid green;
 `;
 
 const PasswordInput = styled.input`
 display: block;
 width: 100%;
-height : 16px;
+height : 100%;
 &::placeholder {
   color: ##949494;
   font-size : 16px;
@@ -81,18 +91,17 @@ height : 16px;
 }
 `;
 const LoginButton = styled.button`
-
-
-`;
-
-const KakaoLoginButton = styled.a`
-  background-color: yellow;
   width: 100%;
-  margin-top: 32px;
-  margin-bottom: 40px;
+  height: 45px;
+  background: grey;
+  border-radius: 40px; 
   cursor: pointer;
-  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
 `;
+
+const KakaoLoginButton= styled.button``;
+
 
 export{
   SignInLayout,
