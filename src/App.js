@@ -9,7 +9,7 @@ import Main from './pages/splash/main';
 //import Navbar from './components/Navbar';
 import './App.css';
 import GlobalStyle from './styles/GlobalStyle';
-
+import app from './firebase';
 
 
 function App() {  
