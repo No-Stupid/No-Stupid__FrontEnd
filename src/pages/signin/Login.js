@@ -14,7 +14,7 @@ import {
   ErrorAlter,
   KakaoLoginButton
 } from './style';
-import { KAKAO_AUTH_URL } from '../../api/KakaoLogin';
+
 
 function Login() {
   const Navigate = useNavigate();
@@ -86,7 +86,7 @@ function Login() {
           {loginError && <div>{loginError}</div>}
           <LoginButton type="submit" onClick={handleLogin}>LOGIN</LoginButton>
         </form>
-        <KakaoLoginButton href={KAKAO_AUTH_URL}>카카오로 로그인</KakaoLoginButton>
+        
            </LoginArea>
     </SignInLayout>
   );

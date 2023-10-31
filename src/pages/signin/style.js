@@ -34,7 +34,7 @@ const LogoBox = styled.div`
 const LoginArea = styled.div`
 position: relative;
 top: 120px;
-border: 1px solid blue;
+
 padding : 15px 20px;
 
 `;
@@ -42,7 +42,7 @@ const LoginWrapper = styled.div`
 width: 100%;
 height: 50px;
 margin: 30px 0;
-border: 1px solid green;
+
 
 `;
 const EmailInput= styled.input `
@@ -75,7 +75,7 @@ const PasswordWrapper= styled.div`
 width: 100%;
 height: 50px;
 margin: 30px 0;
-border: 1px solid green;
+
 `;
 
 const PasswordInput = styled.input`
@@ -100,7 +100,7 @@ const LoginButton = styled.button`
   font-weight: 600;
 `;
 
-const KakaoLoginButton= styled.button``;
+
 
 
 export{
@@ -113,5 +113,5 @@ export{
   PasswordWrapper,
   PasswordInput,
   LoginButton,
-  KakaoLoginButton
+
 }
