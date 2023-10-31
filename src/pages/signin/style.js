@@ -100,7 +100,13 @@ const LoginButton = styled.button`
   font-weight: 600;
 `;
 
-const KakaoLoginButton= styled.button``;
+const KakaoLoginButton= styled.button`
+
+
+
+
+
+`;
 
 
 export{
