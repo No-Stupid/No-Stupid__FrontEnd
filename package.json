@@ -1,0 +1,62 @@
+{
+  "name": "front_stupid",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@dotlottie/react-player": "^1.6.1",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@mui/system": "^5.14.1",
+    "@react-oauth/google": "^0.11.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "circular-json": "^0.5.9",
+    "create-react-app": "^5.0.1",
+    "http-proxy-middleware": "^2.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.2",
+    "react-icons": "^4.10.1",
+    "react-lottie-player": "^1.5.5",
+    "react-responsive": "^9.0.2",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "react-spring": "^9.7.3",
+    "recoil": "^0.7.7",
+    "styled-components": "^5.3.11",
+    "styled-reset": "^4.5.1",
+    "web-vitals": "^2.1.4",
+    "zustand": "^4.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "autoprefixer": "10.4.14",
+    "postcss": "^8.4.26",
+    "tailwindcss": "^3.3.3"
+  }
+}
