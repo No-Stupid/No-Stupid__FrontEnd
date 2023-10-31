@@ -12,7 +12,7 @@ import {
   LoginButton,
   PasswordWrapper,
   ErrorAlter,
-  KakaoLoginButton
+ 
 } from './style';
 
 

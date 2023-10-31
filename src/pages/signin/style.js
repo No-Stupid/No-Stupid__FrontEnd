@@ -3,7 +3,7 @@ import {Layout} from '../../components/common/Layout'
 
 const SignInLayout = styled(Layout)`
  padding: 20px 16px 56px 16px;
- border: 1px solid red;
+
  display:flex;
  flex-direction: column;
  jusitfy-content: space-between;
