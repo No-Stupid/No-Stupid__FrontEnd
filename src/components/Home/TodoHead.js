@@ -33,7 +33,7 @@ const SubHeading= styled.p`
 function TodoHead () {
   return (
     <TodoHeadBlock>
-        <Heading> 희진님의  </Heading>
+        <Heading> 000님의  </Heading>
         <SubHeading>기록하는 이력서 </SubHeading>
     </TodoHeadBlock>
   );
