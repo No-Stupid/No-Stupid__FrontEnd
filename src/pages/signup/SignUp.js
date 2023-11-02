@@ -19,6 +19,7 @@ import {
   PasswordCheckWrapper,
   PasswordCheckInput,
   SignUpButton,
+  SignUpContainer,
   ErrorAlter
 
 }from './style';
@@ -72,7 +73,7 @@ function SignUp(){
       <SignUpTitle>회원가입</SignUpTitle>
       <form onSubmit={handleSubmit(handleSingIn)}>
 
-       
+       <SignUpContainer>
         <NameWrapper>
         <NameInput type="text" 
         placeholder="이름" 
@@ -184,7 +185,10 @@ function SignUp(){
                     }
         
         </PasswordCheckWrapper>
+      
         {SignInError && <div>{SignInError}</div>}
+
+        </SignUpContainer>
     <SignUpButton type="submit" onclick={handleSubmit(handleSingIn)}>회원가입</SignUpButton>
       </form>
     </SignUpLayout>
