@@ -25,7 +25,7 @@ const Heading = styled.h1`
 function TodoHead () {
   return (
     <TodoHeadBlock>
-        <Heading> 희진님의 이력서 </Heading>
+        <Heading> 000님의 이력서 </Heading>
     </TodoHeadBlock>
   );
 }
