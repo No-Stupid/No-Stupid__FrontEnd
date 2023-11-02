@@ -23,6 +23,7 @@ import {
 
 }from './style';
 
+import {ReactComponent as GoBackButton} from '../../assets/icon/GoBackButton.svg'
 import axios from '../../api/axios';
 
 
@@ -67,6 +68,7 @@ function SignUp(){
 
   return(
     <SignUpLayout>
+      <GoBackButton onClick={()=> Navigate('/login')}/>
       <SignUpTitle>회원가입</SignUpTitle>
       <form onSubmit={handleSubmit(handleSingIn)}>
 
