@@ -1,4 +1,8 @@
 import styled from 'styled-components';
+import {Layout} from '../../components/common/Layout'
+
+
+
 
 export const EventColorContainer = styled.div`
   display: flex;
@@ -62,3 +66,5 @@ export const CrudColorCircle = styled.div`
     display: block;
   }
 `;
+
+

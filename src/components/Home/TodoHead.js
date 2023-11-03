@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components';
 
 const TodoHeadBlock=styled.div`
-background-color: #f5d682;
-border: 1px solid red;
+
+
 display: flex;
 flex-direction : column;
 padding : 15px 5px 5px ;

@@ -14,33 +14,33 @@ import Calendar from './pages/Calendar/Calendar'
 //import Navbar from './components/Navbar';
 import './App.css';
 import GlobalStyle from './styles/GlobalStyle';
+import CorporateInfo from "pages/corporateInfo/CorporateInfo";
 
 
-function App() {  
- 
+function App() {
+
 
   return (
-  
+
     <BrowserRouter>
     <GlobalStyle/>
     <Routes>
-      <Route path='/Home' element={<Home/>}/> 
-  
-    
+      <Route path='/Home' element={<Home/>} />
+      <Route path='/ModifyInfo'>
+        <Route path=":infoId" element={<CorporateInfo />} />
+      </Route>
+      <Route path="/writeInfo" element={<CorporateInfo />} />
       <Route path ='/Login' element={<Login />}/>
       <Route path='/SignUp' element={<SignUp />}/>
       <Route path ='/Community' element={<Community/>} />
-      <Route path = "/Main" element={<Main />}/>
+      <Route path = "/" element={<Main />}/>
       <Route path = "/Calendar" element={<Calendar />}/>
-     
-      
-    
 
     </Routes>
     </BrowserRouter>
 
-   
-   
+
+
   );
 }
 

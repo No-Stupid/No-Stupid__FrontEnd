@@ -50,8 +50,8 @@ const Navigation = () => {
         </nav>
 
         <nav>
-        <NavLink to = "/CvList">
-            {pathname === '/CvList' ? <CvIcon/> : <CvNotIcon/>}
+        <NavLink to = "/CorporateInfo">
+            {pathname === '/CorporateInfo' ? <CvIcon/> : <CvNotIcon/>}
            </NavLink>
         </nav>
 
