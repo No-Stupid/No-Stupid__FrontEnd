@@ -72,16 +72,14 @@
 
 ## ⚒️ 개발환경 및 스택
 ### Front-end
- <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"/> 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black"/> 
+ <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black"/> 
  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=Vercel&logoColor=white"/> 
   <img src="https://img.shields.io/badge/styled components-DB7093?style=for-the-badge&logo=styled components&logoColor=white"/> 
 
  
  
 ### Back-end
-  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/> 
-<img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Springboot&logoColor=white"/> 
+  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"/> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Springboot&logoColor=white"/> 
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=Spring&logoColor=white"/> 
 
 ### Disign
@@ -90,10 +88,7 @@
 
 
 ### 협업 툴 
- <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Spring&logoColor=white"/> 
-
- <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Spring&logoColor=white"/> 
-
+ <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Spring&logoColor=white"/>  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Spring&logoColor=white"/> 
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Spring&logoColor=white"/> 
 
 
