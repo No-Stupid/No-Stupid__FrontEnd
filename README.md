@@ -1,5 +1,5 @@
 ## 👨‍🎓 [2023] 나만의 지원서 관리, No-Stupid
-<img src="https://github.com/gmlgus0424/Algorithm_JS/assets/81346229/5406a7e5-f788-4116-aa01-b0631f5fcc96" alt="취업관리 일정표"/>
+<img src="https://github.com/gmlgus0424/Algorithm_JS/assets/81346229/5406a7e5-f788-4116-aa01-b0631f5fcc96" alt="취업관리 일정표" width="400"/>
 </br>
 </br>
 </br>
