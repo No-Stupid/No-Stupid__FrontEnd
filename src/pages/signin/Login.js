@@ -1,7 +1,9 @@
 import { useForm } from 'react-hook-form';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import React, { useState } from 'react';
-import { ReactComponent as LogoBox } from '../../assets/icon/no_stupid.svg'
+import { ReactComponent as LogoBox } from 'assets/icon/no_stupid.svg';
+
+import axios from 'axios';
 
 import {
   SignInLayout,
@@ -12,36 +14,44 @@ import {
   LoginButton,
   PasswordWrapper,
   ErrorAlter,
-  KakaoLoginButton
+  SignUpWrapper,
+  AnimatedSpan
+ 
 } from './style';
-import { KAKAO_AUTH_URL } from '../../api/KakaoLogin';
 
 function Login() {
-  const Navigate = useNavigate();
+  const navigate = useNavigate();
   const { register, handleSubmit, formState: { errors } } = useForm();
   const [loginError, setLoginError] = useState('');
 
+  const storedId = localStorage.getItem('id');
+  if (storedId) {
+    navigate('/home');
+  }
 
   const handleLogin = async (data) => {
     try {
-      const response = await fetch("http://localhost:3000/login", {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
+      const response = await axios.post('http://localhost:8080/api/member/login', {
+        memberEmail: data.email,
+        memberPwd: data.password,
       });
 
-      if (response.status === 200) {
-        // 로그인 성공 했을때
-        sessionStorage.setItem('loggedIn', 'true');
-        Navigate('/Home');
-      } else {
-        setLoginError('로그인을 실패했습니다');
+      const user = response.data;
+
+      if (user !== null) {
+        alert("로그인이 완료되었습니다.")
+
+        localStorage.setItem('id', user.id);
+        localStorage.setItem('name', user.memberName);
+        localStorage.setItem('pw', user.memberPwd);
+        localStorage.setItem('birth', user.memberBirth);
+        localStorage.setItem('phone', user.memberPhone);
+        localStorage.setItem('email', user.memberEmail);
+
+        navigate('/home');
       }
-    } catch(error){
-    
-      setLoginError('오류가 발생하였습니다');
+    } catch (error) {
+      setLoginError('이메일과 비밀번호를 다시 확인해주세요.');
     }
   };
 
@@ -65,6 +75,7 @@ function Login() {
             {
               errors.email?.type === 'pattern' && (<ErrorAlter>올바르게 입력해주세요</ErrorAlter>)
             }
+           
           </LoginWrapper>
 
           <PasswordWrapper>
@@ -84,10 +95,20 @@ function Login() {
             }
           </PasswordWrapper>
           {loginError && <div>{loginError}</div>}
-          <LoginButton type="submit" onClick={handleLogin}>LOGIN</LoginButton>
+          <LoginButton type="submit">LOGIN</LoginButton>
         </form>
-        <KakaoLoginButton href={KAKAO_AUTH_URL}>카카오로 로그인</KakaoLoginButton>
-           </LoginArea>
+
+        <br />
+        <SignUpWrapper>처음이신가요? &nbsp;  <Link to='/signup' >
+      
+       <AnimatedSpan delay={0.1}>회</AnimatedSpan>
+    <AnimatedSpan delay={0.2}>원</AnimatedSpan>
+    <AnimatedSpan delay={0.3}>가</AnimatedSpan>
+    <AnimatedSpan delay={0.4}>입</AnimatedSpan>
+      
+          
+          </Link></SignUpWrapper>
+      </LoginArea>
     </SignInLayout>
   );
 }

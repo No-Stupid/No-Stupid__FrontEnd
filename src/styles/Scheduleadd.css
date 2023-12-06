@@ -1,0 +1,343 @@
+body{
+    position: relative;
+}
+
+.page {
+	position: relative;
+    padding: 1%;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    margin: 0 auto;
+
+}
+.container1{
+    position: absolute;
+    width: 340px;
+    height: 18.31px;
+    left: 22px;
+    top: 12px;
+
+}
+.title{
+    position: absolute;
+    width: 83.39px;
+    height: 18.62px;
+    left: 24.26px;
+    top: 50px;
+
+}
+.set{
+    position: absolute;
+    width: 83.39px;
+    height: 18.62px;
+    left: 327px;
+    top: 50px;
+}
+.container3{
+    position: absolute;
+    width: 375px;
+    height: 722px;
+    left: 0px;
+    top: 95px;
+    border-radius: 20px 20px 0px 0px;
+    background: #D3D3D3;
+}
+.bar{
+    position: absolute;
+    left: 36.27%;
+    right: 42.4%;
+    top: 2.22%;
+    bottom: 96.95%;
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.nameInput{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 6.4%;
+    right: 6.4%;
+    top: 9.82%;
+    bottom: 87.53%;
+    
+    border: 2px solid #050000;
+    border-radius: 12px;
+}
+.name{
+    outline: none;
+	border: none;
+    margin-left: 3%;
+    margin-top: 2%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    
+    color: #050000;
+    background-color: #D3D3D3;
+}
+.interviewInput{
+    box-sizing: border-box;
+    position: absolute;
+    
+    left: 6.4%;
+    right: 6.4%;
+    top: 18.25%;
+    bottom: 57.81%;
+
+    border: 2px solid #050000;
+    border-radius: 12px;
+
+}
+.interviewFont{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 3%;
+    letter-spacing: 0.05em;
+    
+    color: #050000;
+}
+.interview{
+    outline: none;
+	border: none;
+    margin-left: 3%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+
+    letter-spacing: 0.01em;
+
+    color: #050000;
+    background-color: #D3D3D3;
+}
+.placeInput{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 6.4%;
+    right: 6.4%;
+    top: 44.09%;
+    bottom: 50%;
+    
+    border: 2px solid #050000;
+    border-radius: 12px;
+}
+.place{
+    outline: none;
+	border: none;
+    margin-left: 3%;
+    margin-top: 2%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    
+    color: #050000;
+    background-color: #D3D3D3;
+}
+.timeInput{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 6.4%;
+    right: 6.4%;
+    top: 51.6%;
+    bottom: 42.49%;
+
+    border: 2px solid #050000;
+    border-radius: 12px;
+}
+.time{
+    outline: none;
+	border: none;
+    margin-left: 3%;
+    margin-top: 2%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    
+    color: #050000;
+    background-color: #D3D3D3;
+}
+.dateInput{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 6.4%;
+    right: 6.4%;
+    top: 59.11%;
+    bottom: 34.98%;
+    
+    border: 2px solid #050000;
+    border-radius: 12px;
+    
+}
+.date{
+    outline: none;
+	border: none;
+    margin-left: 3%;
+    margin-top: 2%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    
+    color: #050000;
+    background-color: #D3D3D3;
+    
+    
+}
+.notionInput{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 6.4%;
+    right: 6.4%;
+    top: 66.63%;
+    bottom: 27.46%;
+    
+    border: 2px solid #050000;
+    border-radius: 12px;
+}
+.notion{
+    outline: none;
+	border: none;
+    margin-left: 3%;
+    margin-top: 2%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    
+    color: #050000;
+    background-color: #D3D3D3;
+    
+}
+.gitInput{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 6.4%;
+    right: 6.4%;
+    top: 74.14%;
+    bottom: 19.95%;
+    
+    border: 2px solid #050000;
+    border-radius: 12px;
+    
+}
+.git{
+    outline: none;
+	border: none;
+    margin-left: 3%;
+    margin-top: 2%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+
+    color: #050000;
+    background-color: #D3D3D3;
+    }
+.columnInput{
+    box-sizing: border-box;
+    position: absolute;
+    left: 6.4%;
+    right: 6.4%;
+    top: 81.65%;
+    bottom: 12.44%;
+    border: 2px solid #050000;
+    border-radius: 12px;
+}
+.column{
+    outline: none;
+	border: none;
+    margin-left: 3%;
+    margin-top: 2%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    /* or 27px */
+    letter-spacing: 0.01em;
+    color: #050000;
+    background-color: #D3D3D3;
+
+}
+.submit{
+    /*position: absolute;
+    left: 6.4%;
+    right: 6.4%;
+    top: 90.03%;
+    bottom: 3.32%;
+    
+    background: rgba(81, 81, 81, 0.6);
+    border-radius: 12px;
+    */
+
+}
+.addButton{
+    position: absolute;
+    left: 6.4%;
+    right: 6.4%;
+    top: 90.03%;
+    bottom: 3.32%;
+    
+    outline: none;
+	border: none;
+    background: rgba(81, 81, 81, 0.6);
+    border-radius: 12px;
+    
+}
+.add{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #050000;
+    
+    cursor: pointer;
+
+    
+}

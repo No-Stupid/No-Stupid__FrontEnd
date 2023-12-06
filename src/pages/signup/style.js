@@ -3,7 +3,6 @@ import {Layout} from '../../components/common/Layout';
 
 const SignUpLayout = styled(Layout)`
  padding: 20px 16px 56px 16px;
- border: 1px solid red;
  display:flex;
  flex-direction: column;
  jusitfy-content: space-between;
@@ -25,7 +24,17 @@ input::placeholder{
  `;
 
 
- const SignUpTitle= styled.h1`
+ const SignUpTitle= styled.h1` 
+
+margin-top: 40px;
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 25px;
+ /* or 68px */
+ letter-spacing: 0.01em;
+ color: #000000;
+ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  `;
 
  const ErrorAlter= styled.span`
@@ -40,7 +49,8 @@ input::placeholder{
  width: 100%;
 height: 50px;
 margin: 30px 0;
-border: 1px solid green;
+margin-top: 30px;
+
 `;
 
  const NameInput= styled.input`
@@ -60,7 +70,7 @@ height : 100%;
  width: 100%;
  height: 50px;
  margin: 30px 0;
- border: 1px solid green;
+
  `;
 
  const BirthInput= styled.input`
@@ -80,7 +90,7 @@ height : 100%;
  width: 100%;
  height: 50px;
  margin: 30px 0;
- border: 1px solid green;
+
  
  `;
 
@@ -102,7 +112,7 @@ height : 100%;
  width: 100%;
 height: 50px;
 margin: 30px 0;
-border: 1px solid green;
+
  `;
 
  const EmailInput= styled.input`
@@ -123,7 +133,7 @@ height : 100%;
  width: 100%;
 height: 50px;
 margin: 30px 0;
-border: 1px solid green;
+
 `;
 
  const PasswordInput= styled.input`
@@ -139,12 +149,64 @@ height : 100%;
 }
  `;
 
- const PasswordCheckWrapper= styled.div`  `;
+ const PasswordCheckWrapper= styled.div`  
+ 
+ width: 100%;
+ height: 50px;
+ margin: 30px 0;
 
- const PasswordCheckInput= styled.input``;
 
- const SignUpButton= styled.button` `;
 
+
+ 
+ `;
+
+ const PasswordCheckInput= styled.input`
+ display: block;
+ width: 100%;
+ height : 100%;
+ &::placeholder {
+   color: ##949494;
+   font-size : 16px;
+ }
+ &:focus {
+   color: black;
+ }
+ `;
+
+ const SignUpButton= styled.button` 
+ width: 100%;
+ height: 45px;
+ background: grey;
+ border-radius: 40px; 
+ cursor: pointer;
+ font-size: 16px;
+ font-weight: 600;
+ margin-top:300px;
+ box-shadow: 5px 5px 10px;
+color: white;
+
+ `;
+
+ const SignUpContainer= styled.div`
+ 
+ margin-top: 60px;
+
+
+ 
+ `;
+
+
+ const SignInWrapper= styled.div`
+ display: flex;
+justify-content: center;
+padding-top : 60px;
+ 
+ 
+ 
+ 
+ 
+ `;
 
  export{
   SignUpLayout,
@@ -162,7 +224,9 @@ height : 100%;
   PasswordCheckWrapper,
   PasswordCheckInput,
   SignUpButton,
-  ErrorAlter
+  SignUpContainer,
+  ErrorAlter,
+  SignInWrapper
 
 
 

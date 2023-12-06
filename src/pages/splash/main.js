@@ -41,7 +41,7 @@ export default function App() {
   };
 
   return (
-    <Container>
+    <Container style={{ maxWidth: '375px' }}>
       <SplashTextBox onClick={handleClick}>
         <Trail open={open}>
           <span>Welcome</span>
@@ -55,7 +55,7 @@ export default function App() {
       {open && (
         <Link to="/login">
           <ButtonContainer>
-            <Button > 시작하기</Button>
+            <Button> 시작하기</Button>
           </ButtonContainer>
         </Link>
       )}

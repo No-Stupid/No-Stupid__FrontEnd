@@ -1,0 +1,368 @@
+body{
+    position: relative;
+}
+
+.page_{
+	position: relative;
+    padding: 1%;
+    width: 375px;
+    height: 1200px;
+    background: #FFFFFF;
+    margin: 0 auto;
+
+
+}
+
+.container1{
+    position: absolute;
+    width: 340px;
+    height: 65px;
+    left: 22px;
+    top: 30px;
+
+
+}
+.back{
+    /* chevron-left */
+    position: absolute;
+    width: 24px;
+    height: 24px;
+
+}
+
+.title_{
+/* 학력 정보 */
+
+position: absolute;
+width: 150px;
+height: 35px;
+top:30px;
+left:0px;
+
+/* header 4 */
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+}
+.line1{
+    /* Line 3 */
+    
+    position: absolute;
+    width: 385px;
+    height: 0px;
+    right: 0px;
+    top: 100px;
+    
+    border: 1px solid #EBEBEB;
+    
+}
+.container3_{
+    position: absolute;
+    width: 375px;
+    height: 1000px;
+    left: 6px;
+    top: 125px;
+    border-radius: 0px 0px 0px 0px;
+    background: #ffffff;
+
+}
+
+.profile_Input{
+/* 학교 */
+
+    position: absolute;
+    width: 340px;
+    height: 125px;
+    left: 17px;
+    top: 1px;
+    
+    border: 1px solid #b0b0b0;
+    border-radius: 12px;
+
+    fill: #FFF;
+
+    stroke-width: 1px;
+    stroke: #B0B0B0;
+
+    mix-blend-mode: darken;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+}
+.name1{
+
+/* 학교 */
+    position: absolute;
+    top: 40px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 130px;
+    width: 100px;
+    justify-content: center;
+
+
+    /* identical to box height */
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.school{
+/* Rectangle 15 */
+
+box-sizing: border-box;
+position: absolute;
+width: 157px;
+height: 31px;
+left: 180px;
+
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 12px;
+
+}
+.in_Input{
+    position: absolute;
+    width: 340px;
+    height: 210px;
+    left: 17px;
+    top: 160px;
+    
+    border: 1px solid #b0b0b0;
+    border-radius: 12px;
+
+    fill: #FFF;
+
+    stroke-width: 1px;
+    stroke: #B0B0B0;
+
+    mix-blend-mode: darken;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.name2{
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15%; /* 42.5px */
+    letter-spacing: 0.25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.in{
+/* Rectangle 16 */
+
+box-sizing: border-box;
+
+width: 337px;
+height: 28px;
+
+top: 40px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 12px;
+
+}
+
+.out_Input{
+    position: absolute;
+    width: 340px;
+    height: 250px;
+    left: 17px;
+    top: 400px;
+
+    border: 1px solid #b0b0b0;
+    border-radius: 12px;
+
+    fill: #FFF;
+
+    stroke-width: 1px;
+    stroke: #B0B0B0;
+
+    mix-blend-mode: darken;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+}
+.name3{
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15%; /* 42.5px */
+    letter-spacing: 0.25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.out{
+/* Rectangle 27 */
+
+box-sizing: border-box;
+
+
+width: 337px;
+height: 28px;
+left: 17px;
+top: 331px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 12px;
+
+}
+
+
+.degree_Input{
+/* 학점 */
+
+position: absolute;
+width: 340px;
+height: 180px;
+left: 17px;
+top: 680px;
+
+    border: 1px solid #b0b0b0;
+    border-radius: 12px;
+
+    fill: #FFF;
+
+    stroke-width: 1px;
+    stroke: #B0B0B0;
+
+    mix-blend-mode: darken;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+}
+.name6{
+    color: #000;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15%; /* 42.5px */
+    letter-spacing: 0.25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.degree{
+/* Rectangle 19 */
+
+box-sizing: border-box;
+
+
+width: 337px;
+height: 28px;
+left: 15px;
+top: 589px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 12px;
+
+}
+
+.career_Input{
+    position: absolute;
+    width: 340px;
+    height: 80px;
+    left: 17px;
+    top: 670px;
+
+}
+.name8{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    
+    color: #000000;
+}
+.career{
+    box-sizing: border-box;
+
+    width: 337px;
+    height: 28px;
+    left: 14px;
+    top: 698px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+}
+
+.submButton{
+    position: absolute;
+    left: 5.4%;
+    right: 6.4%;
+    top: 93.03%;
+    bottom: 1.32%;
+    
+    outline: none;
+	border: none;
+    background: rgba(81, 81, 81, 0.6);
+    border-radius: 12px;
+    
+}
+.subm{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #050000;
+    
+    cursor: pointer;
+
+    
+}
+.FaUser{
+    background-color: #b0b0b0;
+    
+    color: #656565;
+    border-radius: 25px 25px 25px 25px;
+    font-size: 15px;
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.FaPen,.FaPlus{
+    position: absolute;
+    top: 10px;
+    color: #656565;
+    cursor: pointer;
+    font-size: 15px;
+    height: 15px;
+    width: 15px;
+    right: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

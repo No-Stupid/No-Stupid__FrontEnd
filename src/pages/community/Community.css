@@ -1,0 +1,65 @@
+
+.CommunityTitleBox {
+    display: flex;
+}
+
+.CommunityBigTitle {
+    color: #E83527;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.CommunityWriteButton {
+    margin-top: 25px;
+    margin-left: 190px;
+    background-color: #E83527;
+    color: #fff;
+    height: 30px;
+}
+
+.CommunityUnderline {
+    margin-top: 15px;
+    height: 2px;
+    background-color: #F0F0F0;
+}
+
+.CommunityInputBox {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.CommunityInput {
+    align-items: center;
+    margin-top: 30px;
+    width: 330px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: black;
+    padding-left: 20px;
+}
+
+.CommunityListTitleBox {
+    display: flex;
+    margin-top: 30px;
+}
+
+.CommunityListTitle {
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.CommunitySeeAll {
+    margin-left: auto;
+    margin-right: 40px;
+    font-size: 14px;
+    color: black;
+}
+
+.CommunityContent {
+    margin-left: 30px;
+    margin-top: 13px;
+}

@@ -1,0 +1,433 @@
+body {
+    position: relative;
+}
+
+.page_ {
+    position: relative;
+    padding: 1%;
+    width: 375px;
+    height: 860px;
+    background: #FFFFFF;
+    margin: 0 auto;
+
+
+}
+
+.container1_2 {
+    position: absolute;
+    width: 340px;
+    height: 65px;
+    left: 22px;
+    top: 30px;
+
+}
+
+.icon {
+    padding: 20px 15px 0;
+}
+
+.icon svg {
+    float: left;
+}
+
+.backIcon {}
+
+.navbar-brand {
+    color: #000;
+}
+
+.title_Aca {
+    margin: 10px 0;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+
+}
+
+.line__ {
+    width: 375px;
+    border: 1px solid #EBEBEB;
+    margin-left: -22px;
+}
+
+.container3__ {
+    position: absolute;
+    width: 368px;
+    height: 640px;
+    left: 6px;
+    top: 105px;
+    border-radius: 0px 0px 0px 0px;
+    background: #ffffff;
+
+}
+
+.starDiv {
+
+    width: 80px;
+    height: 25px;
+    left: 9px;
+    top: 123px;
+}
+
+.starInput {
+    /* *필수입니다 */
+    left: 9px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.01em;
+
+    color: #949494;
+
+}
+
+.schoolInput_ {
+    margin: 10px;
+}
+
+.name1_ {
+
+    /* 학교 */
+
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.selectSchool {
+    box-sizing: border-box;
+    width: 165px;
+    height: 31px;
+    left: 3px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.school {
+    /* Rectangle 15 */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 160px;
+    height: 31px;
+    left: 185px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+}
+
+.in__Input {
+    margin: 10px;
+}
+
+.name2_ {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.in {
+    /* Rectangle 16 */
+
+    box-sizing: border-box;
+
+    width: 337px;
+    height: 28px;
+
+    top: 40px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+}
+
+.out__Input {
+    margin: 10px;
+}
+
+.name3_ {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.out {
+    /* Rectangle 27 */
+
+    box-sizing: border-box;
+
+
+    width: 337px;
+    height: 28px;
+    left: 17px;
+    top: 331px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+}
+
+.majorInputAca {
+    margin: 10px;
+}
+
+.majorAca {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+
+    color: #000000;
+
+}
+
+.majorInputAca input {
+    /* Rectangle 35 */
+
+    box-sizing: border-box;
+
+    width: 337px;
+    height: 31px;
+    left: 15px;
+    top: 411px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+
+}
+
+.double_Input {
+    width: 340px;
+    height: 50px;
+    margin: 10px;
+}
+
+.name5 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.selectMajor {
+    box-sizing: border-box;
+    width: 157px;
+    height: 31px;
+    left: 3px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.double {
+    /* Rectangle 37 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 167px;
+    height: 31px;
+    left: 180px;
+    top: px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+}
+
+.degree__Input {
+    /* 학점 */
+    width: 340px;
+    height: 50px;
+    margin: 10px;
+}
+
+.degreeName {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.degree {
+    /* Rectangle 19 */
+
+    box-sizing: border-box;
+
+
+    width: 337px;
+    height: 28px;
+    left: 15px;
+    top: 589px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+}
+
+.credit_Input {
+    /* 수상 경력 */
+    width: 340px;
+    margin: 10px;
+}
+
+.name7 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+
+}
+
+.credit {
+    /* Rectangle 28 */
+
+    box-sizing: border-box;
+
+
+    width: 337px;
+    height: 28px;
+    left: 14px;
+    top: 668px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+}
+
+.career_Input {
+    width: 340px;
+    height: 80px;
+    margin: 10px;
+}
+
+.name8 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.career {
+    box-sizing: border-box;
+
+    width: 337px;
+    height: 28px;
+    left: 14px;
+    top: 698px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+}
+
+.submitAca button {
+    position: absolute;
+    left: 15.4%;
+    right: 55.4%;
+    top: 93.03%;
+    bottom: 1.32%;
+
+    outline: none;
+    border: none;
+    background: rgba(81, 81, 81, 0.6);
+    border-radius: 50px;
+
+}
+
+.subm {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #050000;
+
+    cursor: pointer;
+
+
+}
+
+.deleteAca button {
+    position: absolute;
+    left: 55.4%;
+    right: 15.4%;
+    top: 93.03%;
+    bottom: 1.32%;
+
+    outline: none;
+    border: none;
+    background: rgba(81, 81, 81, 0.6);
+    border-radius: 50px;
+}
+
+.backAca {
+    cursor: pointer;
+}

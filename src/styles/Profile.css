@@ -1,0 +1,299 @@
+body{
+    position: relative;
+}
+
+.page {
+	position: relative;
+    padding: 1%;
+    width: 375px;
+    height: 850px;
+    background: #FFFFFF;
+    margin: 0 auto;
+
+}
+
+.container1Pro{
+    position: absolute;
+    width: 340px;
+    height: 65px;
+    left: 22px;
+    top: 15px;
+
+}
+.backPro{
+
+    position: absolute;
+    width: 24px;
+    height: 24px;
+
+}
+
+.titlePro{
+
+
+position: absolute;
+width: 200px;
+height: 35px;
+top:38px;
+left:0px;
+
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+}
+.linePro{
+
+    
+    position: absolute;
+    width: 385px;
+    height: 0px;
+    right: 0px;
+    top: 100px;
+    
+    border: 1px solid #EBEBEB;
+    
+}
+.container2Pro{
+    position: absolute;
+    width: 375px;
+    height: 750px;
+    left: 0px;
+    top: 125px;
+    border-radius: 0px 0px 0px 0px;
+    background: #ffffff;
+}
+
+
+.pictureInputPro{
+
+
+position: absolute;
+width: 340px;
+height: 80px;
+left: 17px;
+}
+.nameInputPro{
+
+
+position: absolute;
+width: 340px;
+height: 80px;
+left: 17px;
+top: 80px;
+
+}
+.namePro{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 00;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    
+    color: #000000;
+}
+.nameInputPro input{
+
+box-sizing: border-box;
+
+width: 337px;
+height: 28px;
+left: 17px;
+top: 331px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 12px;
+
+}
+.oneInputPro{
+position: absolute;
+width: 340px;
+height: 80px;
+left: 17px;
+top: 175px;
+
+}
+.oneNamePro{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    
+    color: #000000;
+    
+}
+.oneInputPro input{
+
+box-sizing: border-box;
+
+width: 337px;
+height: 28px;
+left: 17px;
+top: 331px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 10px;
+
+}
+
+.birthInputPro{
+
+position: absolute;
+width: 340px;
+height: 80px;
+left: 17px;
+top: 270px;
+
+}
+.birthPro{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    
+    color: #000000;
+}
+.birthInputPro input{
+    
+    box-sizing: border-box;
+    width: 337px;
+    height: 28px;
+    left: 15px;
+    top: 589px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+.numInputPro{
+
+position: absolute;
+width: 340px;
+height: 80px;
+left: 17px;
+top: 365px;
+
+}
+.numPro{
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.01em;
+
+color: #000000;
+
+}
+.numInputPro input{
+
+box-sizing: border-box;
+
+
+width: 337px;
+height: 28px;
+left: 14px;
+top: 668px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 12px;
+
+}
+.emailInputPro{    
+    position: absolute;
+    width: 340px;
+    height: 80px;
+    left: 17px;
+    top: 460px;
+    
+}
+.emailPro{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+
+color: #000000;
+}
+.emailInputPro input{
+    box-sizing: border-box;
+
+
+    width: 337px;
+    height: 28px;
+    left: 14px;
+    top: 668px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+
+}
+
+.submitButtonPro button{
+    position: absolute;
+    left: 38.4%;
+    right: 38.4%;
+    top: 76.03%;
+    bottom: 18.32%;
+    
+    outline: none;
+	border: none;
+    background: rgba(81, 81, 81, 0.6);
+    border-radius: 25px;
+    
+}
+.submPro{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #050000;
+    
+    cursor: pointer;
+    
+}
+.FaArrowLeftPro{
+    cursor: pointer;
+}
+.FaUserPro{
+    background-color:#FFFFFF;
+
+    color:  #b0b0b0;
+    font-size: 15px;
+    height: 75px;
+    width: 75px;
+    margin-left: 140px;
+    margin-top: 1px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}

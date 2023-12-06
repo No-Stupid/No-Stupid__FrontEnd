@@ -1,9 +1,8 @@
-import styled from 'styled-components'
+import styled ,{keyframes} from 'styled-components'
 import {Layout} from '../../components/common/Layout'
 
 const SignInLayout = styled(Layout)`
  padding: 20px 16px 56px 16px;
- border: 1px solid red;
  display:flex;
  flex-direction: column;
  jusitfy-content: space-between;
@@ -14,6 +13,7 @@ input{
   font-size: 15px;
   padding: 5px;
   border-radius: 40px;
+  border:2px solid grey;
  
 }
 input::placeholder{
@@ -34,15 +34,16 @@ const LogoBox = styled.div`
 const LoginArea = styled.div`
 position: relative;
 top: 120px;
-border: 1px solid blue;
 padding : 15px 20px;
 
 `;
+
 const LoginWrapper = styled.div` 
 width: 100%;
 height: 50px;
 margin: 30px 0;
-border: 1px solid green;
+
+
 
 `;
 const EmailInput= styled.input `
@@ -75,7 +76,7 @@ const PasswordWrapper= styled.div`
 width: 100%;
 height: 50px;
 margin: 30px 0;
-border: 1px solid green;
+
 `;
 
 const PasswordInput = styled.input`
@@ -99,14 +100,31 @@ const LoginButton = styled.button`
   font-size: 16px;
   font-weight: 600;
 `;
-
-const KakaoLoginButton= styled.button`
-
-
-
-
+const bounce = keyframes`
+0% {
+  opacity: 0;
+  transform: translateY(-15px);
+}
+100% {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 `;
+const AnimatedSpan = styled.span`
+  animation: ${bounce} 3s ease-in-out infinite;
+  animation-delay: ${props => props.delay}s;
+  color:red;
+`;
+
+
+const SignUpWrapper =styled.div`
+display: flex;
+justify-content: center;
+padding-top : 60px;
+`;
+
+
 
 
 export{
@@ -119,5 +137,7 @@ export{
   PasswordWrapper,
   PasswordInput,
   LoginButton,
-  KakaoLoginButton
+  SignUpWrapper,
+ bounce,
+ AnimatedSpan
 }

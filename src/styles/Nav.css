@@ -1,0 +1,74 @@
+.containerNav1{
+    position: absolute;
+    left: 10.4%;
+    top: 93.03%;
+
+}
+.containerNav2{
+    position: absolute;
+    left: 34.4%;
+    top: 93.03%;
+
+}
+.containerNav3{
+    position: absolute;
+    left: 60.4%;
+    top: 93.03%;
+
+}
+.containerNav4{
+    position: absolute;
+    left: 85.4%;
+    top: 93.03%;
+
+}
+.navBars{
+    color:  #656565;
+    height: 25px;
+    width: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.navCal{
+    color:  #656565;
+    height: 25px;
+    width: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.navCheck{
+    color:  #656565;
+    height: 25px;
+    width: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.navUser{
+    color:  #656565;
+    height: 25px;
+    width: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.lineNav{
+        
+    position: absolute;
+    width: 385px;
+    height: 0px;
+    top: 91.03%;
+    
+    border: 1px solid #EBEBEB;
+}
