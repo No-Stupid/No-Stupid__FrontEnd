@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled,{keyframes} from 'styled-components';
 import {Layout} from '../../components/common/Layout';
 
 const SignUpLayout = styled(Layout)`
@@ -14,6 +14,7 @@ const SignUpLayout = styled(Layout)`
   font-size: 15px;
   padding: 5px;
   border-radius: 40px;
+  border:2px solid grey;
  
 }
 input::placeholder{
@@ -36,6 +37,16 @@ margin-top: 40px;
  color: #000000;
  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  `;
+
+
+ const SignUpArea= styled.div`
+ position: relative;
+ top: 30px;
+
+ 
+ `; 
+
+
 
  const ErrorAlter= styled.span`
  display:inline-block;
@@ -188,13 +199,23 @@ color: white;
 
  `;
 
- const SignUpContainer= styled.div`
- 
- margin-top: 60px;
 
+ const bounce = keyframes`
+0% {
+  opacity: 0;
+  transform: translateY(-15px);
+}
+100% {
+  opacity: 1;
+  transform: translateY(0);
+}
 
- 
- `;
+`;
+const AnimatedSpan = styled.span`
+  animation: ${bounce} 3s ease-in-out infinite;
+  animation-delay: ${props => props.delay}s;
+  color:red;
+`;
 
 
  const SignInWrapper= styled.div`
@@ -211,6 +232,7 @@ padding-top : 60px;
  export{
   SignUpLayout,
   SignUpTitle,
+  SignUpArea,
   NameWrapper,
   NameInput,
   BirthWrapper,
@@ -224,9 +246,10 @@ padding-top : 60px;
   PasswordCheckWrapper,
   PasswordCheckInput,
   SignUpButton,
-  SignUpContainer,
   ErrorAlter,
-  SignInWrapper
+  SignInWrapper,
+  bounce,
+  AnimatedSpan
 
 
 

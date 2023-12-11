@@ -8,6 +8,7 @@ import {ReactComponent as GoBackButton} from '../../assets/icon/GoBackButton.svg
 import {
   SignUpLayout,
   SignUpTitle,
+  SignUpArea,
   NameWrapper,
   NameInput,
   BirthWrapper,
@@ -22,7 +23,8 @@ import {
   PasswordCheckInput,
   SignUpButton,
   ErrorAlter,
-  SignInWrapper
+  SignInWrapper,
+  AnimatedSpan
 
 } from './style';
 
@@ -63,6 +65,7 @@ function SignUp() {
     <SignUpLayout>
       <GoBackButton onClick={()=> Navigate('/login')}/>
       <SignUpTitle>회원가입</SignUpTitle>
+      <SignUpArea>
       <form onSubmit={handleSubmit(handleSignUp)}>
 
 
@@ -167,10 +170,21 @@ function SignUp() {
 
         </PasswordCheckWrapper>
         {SignInError && <div>{SignInError}</div>}
-        <SignUpButton type="submit" onClick={handleSubmit(handleSignUp)} >회원가입</SignUpButton>
 
-        <SignInWrapper>회원이신가요? &nbsp; <Link to='/login' style={{ color:'red'}}>로그인</Link></SignInWrapper>
-      </form>
+        <SignUpButton type="submit" onClick={handleSubmit(handleSignUp)} >회원가입</SignUpButton>
+        </form>
+
+
+        <SignInWrapper>회원이신가요? &nbsp; <Link to='/login'>
+
+        <AnimatedSpan delay={0.1}>로</AnimatedSpan>
+       <AnimatedSpan delay={0.2}>그</AnimatedSpan>
+      <AnimatedSpan delay={0.3}>인</AnimatedSpan>
+   
+        
+        
+        </Link></SignInWrapper>
+        </SignUpArea>
     </SignUpLayout>
   )
 }

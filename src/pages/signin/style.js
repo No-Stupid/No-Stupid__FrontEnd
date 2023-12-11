@@ -57,6 +57,7 @@ height: 100%;
 }
 &:focus {
   color: black;
+  
 }
 `;
 
