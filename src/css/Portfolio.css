@@ -1,3 +1,6 @@
+
+
+
 body{
     position: relative;
 }
@@ -44,7 +47,7 @@ top:30px;
 left:0px;
 
 /* header 4 */
-font-family: 'Bebas Neue';
+font-family: 'omyu_pretty';
 font-style: normal;
 font-weight: 400;
 font-size: 26px;
@@ -63,7 +66,7 @@ color: #000000;
     right: 0px;
     top: 120px;
     
-    border: 1px solid #EBEBEB;
+    border: 2px solid #ebebeb;
     
 }
 .containerCa3{
@@ -78,7 +81,7 @@ color: #000000;
 
 .starDiv{
 
-width: 80px;
+width: 100px;
 height: 25px;
 left: 9px;
 top: 123px;
@@ -106,6 +109,7 @@ height: 80px;
 left: 17px;
 top: 40px;
 
+
 }
 .po1Name{
     font-family: 'Bebas Neue';
@@ -124,12 +128,12 @@ top: 40px;
 box-sizing: border-box;
 
 width: 337px;
-height: 28px;
+height: 30px;
 
-top: 40px;
+margin-top: 8px;
 
 background: #FFFFFF;
-border: 1px solid #000000;
+border: 2px solid #949494;
 border-radius: 12px;
 
 }
@@ -161,61 +165,83 @@ box-sizing: border-box;
 
 
 width: 337px;
-height: 28px;
+height: 30px;
 left: 17px;
 top: 331px;
 
+margin-top: 8px;
+
 background: #FFFFFF;
-border: 1px solid #000000;
+border: 2px solid #949494;
 border-radius: 12px;
 
 }
 
-.submitPo button{
+.submitPo button,
+.deletePo button {
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
     position: absolute;
-    left: 20.4%;
-    right: 55.4%;
     top: 79.03%;
     bottom: 13.32%;
-    
-    outline: none;
-	border: none;
-    background: rgba(81, 81, 81, 0.6);
-    border-radius: 50px;
-    
-    cursor: pointer;
-}
-.poSubm{
-    font-family: 'Montserrat';
+    font-family: 'Cafe24Ssurround';
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
     line-height: 17px;
-
-    align-items: center;
     text-align: center;
     letter-spacing: 0.05em;
-    
-    color: #FFFFFF;
-    
-
-
-    
+    color:#FFFFFF;
+    transition: all 0.2s ease; /* 추가된 부분: hover 효과를 위한 transition */
 }
-.deletePo button{
-    position: absolute;
-    left: 55.4%;
-    right: 20.4%;
-    top: 79.03%;
-    bottom: 13.32%;
-    
-    outline: none;
-	border: none;
+
+.submitPo button {
+    left: 20%;
+    right: 55%;
     background: rgba(81, 81, 81, 0.6);
-    border-radius: 50px;
-
-    cursor: pointer;
+    
+    
 }
+
+.deletePo button {
+    left: 55%;
+    right: 20%;
+    background: rgba(247, 6, 6, 0.6);
+}
+
+
+.submitPo button:before,
+.deletePo button:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+    width: 90%;
+    height: 89%;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+}
+.submitPo button:hover:before {
+    margin-top: -2px;
+    margin-left: 0px;
+    transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.5); 
+}
+
+.deletePo button:hover:before {
+    margin-top: -2px;
+    margin-left: 0px;
+    transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.5); 
+}
+
 .backPo{
     cursor: pointer;
 }

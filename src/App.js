@@ -2,11 +2,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import React,{ useReducer,useRef } from 'react';
 import Login from './pages/signin/Login';
 import Nav from "./components/Nav";
-
 import Home from './pages/home/Home';
-
-
-
 import Community from './pages/community/Community';
 import Write from './pages/community/Write';
 import Best from './pages/community/Best';

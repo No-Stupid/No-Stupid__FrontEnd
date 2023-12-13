@@ -70,7 +70,7 @@ export default function Portfolio() {
             <div className="containerCa1"></div>
             <div className="containerCa2">
                 <div>
-                    <button style={{ background: '#fff' }} onClick={() => navigate}>
+                    <button style={{ background: '#fff' }} onClick={() => navigate("/mypage")}>
                         <FaArrowLeft />
                     </button>
                 </div>
@@ -78,7 +78,7 @@ export default function Portfolio() {
             </div>
             <div className="containerCa3">
                 <div className="starDiv">
-                    <p style={{ marginLeft: '15px' }} className='starInput'>*은 필수 입니다</p>
+                    <p style={{ marginLeft: '20px' }} className='starInput'>*은 필수 입니다</p>
                 </div>
                 <div className="po1Input">
                     <p className='po1Name'>사용 플랫폼</p>

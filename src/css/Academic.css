@@ -30,7 +30,7 @@ body {
     float: left;
 }
 
-.backIcon {}
+.backIcon {cursor: pointer}
 
 .navbar-brand {
     color: #000;
@@ -38,7 +38,7 @@ body {
 
 .title_Aca {
     margin: 10px 0;
-    font-family: 'Bebas Neue';
+    font-family: 'omyu_pretty';
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
@@ -89,7 +89,7 @@ body {
 }
 
 .schoolInput_ {
-    margin: 10px;
+    margin: 20px;
 }
 
 .name1_ {
@@ -109,13 +109,14 @@ body {
 
 .selectSchool {
     box-sizing: border-box;
-    width: 165px;
+    width: 160px;
     height: 31px;
     left: 3px;
 
 
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 2px solid #949494;
+    margin-top:8px;
     border-radius: 12px;
     cursor: pointer;
 }
@@ -131,13 +132,14 @@ body {
 
 
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 2px solid #949494;
+    margin-top:8px;
     border-radius: 12px;
 
 }
 
 .in__Input {
-    margin: 10px;
+    margin: 20px;
 }
 
 .name2_ {
@@ -156,19 +158,20 @@ body {
 
     box-sizing: border-box;
 
-    width: 337px;
+    width: 330px;
     height: 28px;
 
     top: 40px;
 
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 2px solid #949494;
+    margin-top:8px;
     border-radius: 12px;
 
 }
 
 .out__Input {
-    margin: 10px;
+    margin: 20px;
 }
 
 .name3_ {
@@ -189,19 +192,20 @@ body {
     box-sizing: border-box;
 
 
-    width: 337px;
+    width: 330px;
     height: 28px;
     left: 17px;
     top: 331px;
 
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 2px solid #949494;
+    margin-top:8px;
     border-radius: 12px;
 
 }
 
 .majorInputAca {
-    margin: 10px;
+    margin: 20px;
 }
 
 .majorAca {
@@ -260,8 +264,9 @@ body {
 
 
     background: #FFFFFF;
-    border: 1px solid #000000;
     border-radius: 12px;
+    border: 2px solid #949494;
+    margin-top:8px;
     cursor: pointer;
 }
 
@@ -277,7 +282,8 @@ body {
     top: px;
 
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 2px solid #949494;
+    margin-top:8px;
     border-radius: 10px;
 
 }
@@ -313,7 +319,8 @@ body {
     top: 589px;
 
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 2px solid #949494;
+    margin-top:8px;
     border-radius: 12px;
 
 }
@@ -348,7 +355,8 @@ body {
     top: 668px;
 
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 2px solid #949494;
+    margin-top:8px;
     border-radius: 12px;
 
 }
@@ -379,55 +387,88 @@ body {
     top: 698px;
 
     background: #FFFFFF;
-    border: 1px solid #000000;
+    border: 2px solid #949494;
+    margin-top:8px;
     border-radius: 12px;
 }
 
-.submitAca button {
+.career2 {
+    box-sizing: border-box;
+
+    width: 337px;
+    height: 28px;
+    left: 14px;
+    top: 728px;
+
+    background: #FFFFFF;
+    border: 2px solid #949494;
+    margin-top:8px;
+    border-radius: 12px;
+}
+
+.submitAca button,
+.deleteAca button {
     position: absolute;
     left: 15.4%;
     right: 55.4%;
     top: 93.03%;
     bottom: 1.32%;
-
+    cursor: pointer;
     outline: none;
     border: none;
     background: rgba(81, 81, 81, 0.6);
     border-radius: 50px;
-
-}
-
-.subm {
-    font-family: 'Montserrat';
+    font-family: 'omyu_pretty';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 17px;
-
-    align-items: center;
     text-align: center;
     letter-spacing: 0.05em;
+    color:#FFFFFF;
+    transition: all 0.2s ease;
+}
 
-    color: #050000;
-
-    cursor: pointer;
-
-
+.submitAca button{
+    left: 20%;
+    right: 55%;
+    background: rgba(81, 81, 81, 0.6);
 }
 
 .deleteAca button {
+    left: 55%;
+    right: 20%;
+    background: rgba(247, 6, 6, 0.6);
+}
+.submitAca button:before,
+.deleteAca button:before {
+    content: '';
+    display: block;
     position: absolute;
-    left: 55.4%;
-    right: 15.4%;
-    top: 93.03%;
-    bottom: 1.32%;
-
-    outline: none;
-    border: none;
-    background: rgba(81, 81, 81, 0.6);
+    top: 10%;
+    left: 6%;
+    width: 90%;
+    height: 89%;
     border-radius: 50px;
+    transition: all 0.2s ease;
+}
+.submitAca button:hover:before {
+    margin-top: -2px;
+    margin-left: 0px;
+    transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    box-shadow: 0px 0px 10px 0px rgba(128, 128, 128, 0.5); 
 }
 
+.deleteAca button:hover:before {
+    margin-top: -2px;
+    margin-left: 0px;
+    transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.5); 
+}
 .backAca {
     cursor: pointer;
 }

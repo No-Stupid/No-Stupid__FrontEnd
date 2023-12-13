@@ -3,7 +3,6 @@
 
 
 import { createGlobalStyle } from "styled-components";
-import "./font/Universe.css";
 import reset from 'styled-reset'
 
 //모바일 safari에서 vh를 결정할 때 일부 ui 무시하는 버그가 있어 vh 계산 커스텀
@@ -32,7 +31,7 @@ ${reset};
   
 }
  html ,body {
-    font-family: 'universe', serif;
+    
     margin:0;
     padding:0;
     background-color : #B5B5B5;
@@ -44,7 +43,7 @@ ${reset};
   }
 
   button{
-
+   
     border: none;
     outline: none;
 

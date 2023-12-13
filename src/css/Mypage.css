@@ -1,5 +1,10 @@
+
+
+@import url("https://font.elice.io/css?family=Elice+DX+Neolli");
+
 body{
     position: relative;
+    font-family:  "Elice DX Neolli";
 }
 
 .page_{
@@ -19,6 +24,7 @@ body{
     padding : 15px 5px;
     text-align: center;
     border-bottom: 1px solid #EBEBEB;
+    font-family:  "Elice DX Neolli";
 }
 
 .line1{
@@ -44,7 +50,7 @@ body{
 }
 
 .name1{
-    font-family: Montserrat;
+    font-family: 'omyu_pretty';
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
@@ -89,7 +95,7 @@ border-radius: 12px;
 .name2{
     color: #000;
 
-    font-family: Montserrat;
+    font-family:  'Montserrat';
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
